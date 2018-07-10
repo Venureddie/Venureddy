@@ -1,4 +1,4 @@
-x=int(raw_input())
-y=int(raw_input())
-z=x**y
-print z
+m=int(raw_input())
+l=int(raw_input())
+h=m**l
+print h
