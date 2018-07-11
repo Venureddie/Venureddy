@@ -1,5 +1,5 @@
 lower, upper =map(int,input().strip().split())
-for num in range(lower, upper + 1):
+for num in range(lower + 1, upper):
    order = len(str(num))
    sum = 0
    temp = num
@@ -9,4 +9,4 @@ for num in range(lower, upper + 1):
        temp //= 10
 
    if num == sum:
-       print(num)
+       print(num,end=" ")
